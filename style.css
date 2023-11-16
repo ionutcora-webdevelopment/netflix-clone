@@ -1,0 +1,28 @@
+body {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url(./img/header-img.jpg);
+    background-size: cover;
+    background-position: 50%;
+    height: 90vh;
+}
+
+/* navbar */
+
+nav img {
+    width: 13%;
+}
+
+.red-btn {
+    background: rgb(229, 9, 20);
+    color: #fff;
+    border: 0;
+    border-radius: 0.25rem;
+    padding: 5px 17px;
+}
+
+.red-btn:hover {
+    background: rgb(193, 17, 25);
+}

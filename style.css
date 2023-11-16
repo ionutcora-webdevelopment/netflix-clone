@@ -154,3 +154,59 @@ form label {
     border-top: 5px solid #232323;
     border-bottom: 5px solid #232323;
 }
+
+/* faq section */
+
+.faq-section h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+
+.faq-section button {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.faq-section .accordion {
+    --bs-accordion-color: rgb(255, 255, 255);
+    --bs-accordion-bg: rgb(45, 45, 45);
+    --bs-accordion-border-color: none;
+    --bs-accordion-border-radius: none;
+}
+
+.faq-section .accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.faq-section .accordion-button:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.faq-section .accordion-button:hover {
+    background-color: rgb(65,65,65);
+}
+
+.faq-section .accordion-button:not(.collapsed) {
+    background-color: rgb(65,65,65);
+    color: rgb(255,255,255);
+}
+
+.faq-section .accordion-button::after {
+    content: "+";
+    background-image: none;
+    position: absolute;
+    height: 30px;
+    font-size: 50px;
+    top: 5px;
+    right: 45px;
+}
+
+.faq-section .accordion-button:not(.collapsed)::after {
+    background-image: none;
+    transform: none;
+    content: "\00d7";
+}

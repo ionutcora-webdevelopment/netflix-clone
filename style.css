@@ -210,3 +210,49 @@ form label {
     transform: none;
     content: "\00d7";
 }
+
+/* footer */
+
+footer {
+    border-top: 5px solid #232323;
+}
+
+footer p,
+footer a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer select {
+    background: transparent;
+    color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    appearance: none;
+    border-radius: 5px;
+}
+
+footer img {
+    filter: invert();
+    top: 8px;
+    left: 12px;
+}
+
+footer .arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    top: 15px;
+    right: -115px;
+}

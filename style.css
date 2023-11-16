@@ -91,3 +91,48 @@ form label {
     content: "\276F";
     margin-left: 5px;
 }
+
+/* purple section */
+
+.purple-section {
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.purple-section .container-md {
+    background: radial-gradient(51.39% 511.66% at 47.68% -217.91%, #ff9900 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100%);
+    box-shadow: 0px -8px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    margin: 0 74px;
+    color: #fff;
+    padding: 22px;
+}
+
+.purple-section img {
+    width: 25%;
+    height: fit-content;
+}
+
+.purple-section p:first-of-type {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0;
+}
+
+.purple-section p:last-of-type {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+.purple-section a {
+    color: #448ef4;
+    font-weight: 500;
+}
+
+.purple-section a::after {
+    content: "\276F";
+    margin-left: 10px;
+}

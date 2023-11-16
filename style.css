@@ -136,3 +136,21 @@ form label {
     content: "\276F";
     margin-left: 10px;
 }
+
+/* enjoy section */
+
+.section-title {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.section-paragraph {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.watch-section,
+.download-section {
+    border-top: 5px solid #232323;
+    border-bottom: 5px solid #232323;
+}
